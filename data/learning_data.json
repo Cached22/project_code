@@ -1,0 +1,27 @@
+```json
+{
+  "learning_data": [
+    {
+      "project_name": "Project A",
+      "analysis": {
+        "total_lines": 0,
+        "lines_of_code": 0,
+        "comments": 0,
+        "blank_lines": 0,
+        "functions": 0,
+        "classes": 0,
+        "cyclomatic_complexity": 0,
+        "maintainability_index": 0
+      },
+      "enhancements": [],
+      "reviews": [],
+      "learning_outcomes": {
+        "structure_observations": [],
+        "style_observations": [],
+        "pattern_observations": [],
+        "best_practices": []
+      }
+    }
+  ]
+}
+```

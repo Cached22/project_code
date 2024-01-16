@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Analysis and Enhancement Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <include src="components/navbar.html"></include>
+        </header>
+        <main>
+            <section id="analysis-container">
+                <include src="components/analysis_component.html"></include>
+            </section>
+            <section id="enhancement-container">
+                <include src="components/enhancement_component.html"></include>
+            </section>
+            <section id="review-container">
+                <include src="components/review_component.html"></include>
+            </section>
+            <section id="learning-container">
+                <include src="components/learning_component.html"></include>
+            </section>
+            <section id="openai-container">
+                <include src="components/openai_component.html"></include>
+            </section>
+        </main>
+        <footer>
+            <include src="components/footer.html"></include>
+        </footer>
+    </div>
+    <div id="error-message-display" class="error-message"></div>
+    <div id="report-results-display" class="report-results"></div>
+</body>
+</html>

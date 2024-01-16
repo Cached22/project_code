@@ -1,0 +1,44 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning from Code</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <section id="learning-container">
+        <h1>Learn from Code</h1>
+        <p>Upload your code files to learn from their structure, style, patterns, and best practices.</p>
+        
+        <input type="file" id="file-upload-input" multiple>
+        <button id="learn-button" onclick="performLearning()">Learn from Code</button>
+        
+        <div id="learning-results-display"></div>
+        <div id="error-message-display"></div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+        // Load navbar and footer components
+        document.getElementById('navbar').innerHTML = '<div class="navbar">' + 
+            '<a href="index.html">Home</a>' +
+            '<a href="analysis_view.html">Code Analysis</a>' +
+            '<a href="enhancement_view.html">Code Enhancement</a>' +
+            '<a href="review_view.html">Code Review</a>' +
+            '<a class="active" href="learning_view.html">Continuous Learning</a>' +
+            '<a href="openai_view.html">OpenAI Utils</a>' +
+            '</div>';
+
+        document.getElementById('footer').innerHTML = '<div class="footer">' +
+            '<p>&copy; 2023 Code Analysis and Learning Tool</p>' +
+            '</div>';
+    </script>
+</body>
+</html>
+```
