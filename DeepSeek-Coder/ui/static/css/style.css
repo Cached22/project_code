@@ -1,0 +1,142 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #6ab04c 3px solid;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.header-logo {
+  float: left;
+  display: inline-block;
+}
+
+.header-logo img {
+  height: 50px;
+}
+
+.header-nav {
+  float: right;
+  display: inline;
+}
+
+.header-nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.header-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-button {
+  display: inline-block;
+  background: #6ab04c;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.main-button:hover {
+  background: #7ab87a;
+}
+
+.chat-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.chat-box {
+  width: 100%;
+  height: 300px;
+  background: #eaeaea;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-input {
+  width: calc(100% - 90px);
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 0 10px;
+  float: left;
+  border-radius: 5px;
+}
+
+.send-button {
+  width: 80px;
+  height: 50px;
+  background: #6ab04c;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  float: right;
+  border-radius: 5px;
+}
+
+.send-button:hover {
+  background: #7ab87a;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #f8f8f8;
+  border-left: 5px solid #6ab04c;
+}
+
+.message.user-message {
+  background: #d1f2eb;
+  border-left-color: #48c9b0;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 0;
+}
