@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeeker Coder</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" type="image/png" href="../static/images/logo.png">
+</head>
+<body>
+    <header>
+        <img src="../static/images/logo.png" alt="DeepSeeker Logo" class="logo">
+        <h1>DeepSeeker Coder</h1>
+    </header>
+    <main>
+        <section class="clone-section">
+            <h2>Clone Project</h2>
+            <button id="clone-btn">Clone Main Branch</button>
+        </section>
+        <section class="review-section">
+            <h2>Review Codebase</h2>
+            <button id="review-btn">Review Code</button>
+        </section>
+        <section class="enhance-section">
+            <h2>Enhance Code</h2>
+            <textarea id="code-input" placeholder="Paste your code here to enhance..."></textarea>
+            <button id="enhance-btn">Enhance Code</button>
+        </section>
+        <section class="chat-section">
+            <h2>OpenAI Chat</h2>
+            <div id="chat-box" class="chat-box"></div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="Ask something...">
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 DeepSeeker Coder</p>
+    </footer>
+    <script src="../static/js/chat.js"></script>
+</body>
+</html>
