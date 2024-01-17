@@ -1,0 +1,34 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Review</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <section id="review-container">
+        <h1>Code Review</h1>
+        <p>Upload your code to get a comprehensive review, including syntax errors, code smells, potential bugs, style violations, security vulnerabilities, and performance issues.</p>
+        
+        <input type="file" id="file-upload-input" multiple>
+        <button id="review-button" onclick="performReview()">Review Code</button>
+        
+        <div id="error-message-display" class="error-message"></div>
+        <div id="report-results-display" class="report-results"></div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+        // Load components
+        document.getElementById('navbar').innerHTML = '<div class="navbar">' + navbar + '</div>';
+        document.getElementById('footer').innerHTML = '<div class="footer">' + footer + '</div>';
+    </script>
+</body>
+</html>
+```
